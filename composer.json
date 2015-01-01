@@ -1,0 +1,28 @@
+{
+    "name": "gussi/php-wrapper-pdo",
+    "description": "Simple PDO wrapper.",
+    "keywords": ["pdo", "database", "mysql"],
+    "license": "BSD-2-Clause",
+    "homepage": "https://github.com/Gussi/php-wrapper-pdo",
+    "support": {
+        "email": "gussi@gussi.is",
+        "irc": "irc://irc.lolnet.is/IRC",
+        "issues": "https://github.com/Gussi/php-wrapper-pdo/issues",
+        "source": "https://github.com/Gussi/php-wrapper-pdo"
+    },
+    "authors": [
+        {
+            "name": "Gunnsteinn Þórisson",
+            "email": "gussi@gussi.is"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Gussi\\Wrapper\\" : "src/"
+        }
+    }
+}
